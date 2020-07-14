@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow Condensed' , sans-serif;
+  font-size: 20px;
+  background-color: rgba(12, 12, 12, 0.986);
+  /* text-align: center; */
+  color: white;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  color: #555;
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  line-height: 13px;
+  color: #555;
+  clear: both;
+}
+.legend li {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  /* float: left; */
+  margin-right: 8px;
+}
+
+.leaflet-popup-content {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center; 
+  background: #244985e7;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* .fixedContainer {
+  background-color:#ddd;
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+} */
+
+
